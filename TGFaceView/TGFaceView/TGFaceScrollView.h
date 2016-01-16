@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TGFaceView.h"
 
 @interface TGFaceScrollView : UIView
+
+@property (nonatomic, weak) id<TGFaceViewDelegate> delegate;
+
+- (BOOL)stringIsFace:(NSString *)string;
 
 @end
