@@ -11,8 +11,8 @@
 		9FD983371C49F9390041D953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983361C49F9390041D953 /* AppDelegate.m */; };
 		9FD9833A1C49F9390041D953 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983391C49F9390041D953 /* ViewController.m */; };
 		9FD9833F1C49F9390041D953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9833E1C49F9390041D953 /* Assets.xcassets */; };
-		9FD9834D1C49F9390041D953 /* TGFaceVIewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9834C1C49F9390041D953 /* TGFaceVIewTests.m */; };
-		9FD983581C49F9390041D953 /* TGFaceVIewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983571C49F9390041D953 /* TGFaceVIewUITests.m */; };
+		9FD9834D1C49F9390041D953 /* TGFaceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9834C1C49F9390041D953 /* TGFaceViewTests.m */; };
+		9FD983581C49F9390041D953 /* TGFaceViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983571C49F9390041D953 /* TGFaceViewUITests.m */; };
 		9FD9836B1C4A05800041D953 /* TGFaceScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9836A1C4A05800041D953 /* TGFaceScrollView.m */; };
 		9FD9836E1C4A0C490041D953 /* TGFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9836D1C4A0C490041D953 /* TGFaceView.m */; };
 		9FD983711C4A0C6F0041D953 /* TGFaceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983701C4A0C6F0041D953 /* TGFaceUtil.m */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9FD9832F1C49F9390041D953 /* TGFaceVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGFaceVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD9832F1C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGFaceView.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD983331C49F9390041D953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FD983351C49F9390041D953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FD983361C49F9390041D953 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,11 +44,11 @@
 		9FD983391C49F9390041D953 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9FD9833E1C49F9390041D953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD983431C49F9390041D953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FD983481C49F9390041D953 /* TGFaceVIewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGFaceVIewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FD9834C1C49F9390041D953 /* TGFaceVIewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFaceVIewTests.m; sourceTree = "<group>"; };
+		9FD983481C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGFaceView.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD9834C1C49F9390041D953 /* TGFaceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFaceViewTests.m; sourceTree = "<group>"; };
 		9FD9834E1C49F9390041D953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FD983531C49F9390041D953 /* TGFaceVIewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGFaceVIewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FD983571C49F9390041D953 /* TGFaceVIewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFaceVIewUITests.m; sourceTree = "<group>"; };
+		9FD983531C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGFaceView.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD983571C49F9390041D953 /* TGFaceViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGFaceViewUITests.m; sourceTree = "<group>"; };
 		9FD983591C49F9390041D953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FD983691C4A05800041D953 /* TGFaceScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGFaceScrollView.h; path = TGFaceView/TGFaceScrollView.h; sourceTree = "<group>"; };
 		9FD9836A1C4A05800041D953 /* TGFaceScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGFaceScrollView.m; path = TGFaceView/TGFaceScrollView.m; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		9FD983261C49F9390041D953 = {
 			isa = PBXGroup;
 			children = (
-				9FD983311C49F9390041D953 /* TGFaceVIew */,
-				9FD9834B1C49F9390041D953 /* TGFaceVIewTests */,
-				9FD983561C49F9390041D953 /* TGFaceVIewUITests */,
+				9FD983311C49F9390041D953 /* TGFaceView */,
+				9FD9834B1C49F9390041D953 /* TGFaceViewTests */,
+				9FD983561C49F9390041D953 /* TGFaceViewUITests */,
 				9FD983301C49F9390041D953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,14 +96,14 @@
 		9FD983301C49F9390041D953 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FD9832F1C49F9390041D953 /* TGFaceVIew.app */,
-				9FD983481C49F9390041D953 /* TGFaceVIewTests.xctest */,
-				9FD983531C49F9390041D953 /* TGFaceVIewUITests.xctest */,
+				9FD9832F1C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.app */,
+				9FD983481C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.xctest */,
+				9FD983531C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FD983311C49F9390041D953 /* TGFaceVIew */ = {
+		9FD983311C49F9390041D953 /* TGFaceView */ = {
 			isa = PBXGroup;
 			children = (
 				9FD983651C4A04B40041D953 /* TGFaceView */,
@@ -115,6 +115,7 @@
 				9FD983431C49F9390041D953 /* Info.plist */,
 				9FD983321C49F9390041D953 /* Supporting Files */,
 			);
+			name = TGFaceView;
 			path = TGFaceVIew;
 			sourceTree = "<group>";
 		};
@@ -126,21 +127,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9FD9834B1C49F9390041D953 /* TGFaceVIewTests */ = {
+		9FD9834B1C49F9390041D953 /* TGFaceViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				9FD9834C1C49F9390041D953 /* TGFaceVIewTests.m */,
+				9FD9834C1C49F9390041D953 /* TGFaceViewTests.m */,
 				9FD9834E1C49F9390041D953 /* Info.plist */,
 			);
+			name = TGFaceViewTests;
 			path = TGFaceVIewTests;
 			sourceTree = "<group>";
 		};
-		9FD983561C49F9390041D953 /* TGFaceVIewUITests */ = {
+		9FD983561C49F9390041D953 /* TGFaceViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9FD983571C49F9390041D953 /* TGFaceVIewUITests.m */,
+				9FD983571C49F9390041D953 /* TGFaceViewUITests.m */,
 				9FD983591C49F9390041D953 /* Info.plist */,
 			);
+			name = TGFaceViewUITests;
 			path = TGFaceVIewUITests;
 			sourceTree = "<group>";
 		};
@@ -174,7 +177,7 @@
 			);
 			name = TGFaceVIew;
 			productName = TGFaceVIew;
-			productReference = 9FD9832F1C49F9390041D953 /* TGFaceVIew.app */;
+			productReference = 9FD9832F1C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9FD983471C49F9390041D953 /* TGFaceVIewTests */ = {
@@ -192,7 +195,7 @@
 			);
 			name = TGFaceVIewTests;
 			productName = TGFaceVIewTests;
-			productReference = 9FD983481C49F9390041D953 /* TGFaceVIewTests.xctest */;
+			productReference = 9FD983481C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9FD983521C49F9390041D953 /* TGFaceVIewUITests */ = {
@@ -210,7 +213,7 @@
 			);
 			name = TGFaceVIewUITests;
 			productName = TGFaceVIewUITests;
-			productReference = 9FD983531C49F9390041D953 /* TGFaceVIewUITests.xctest */;
+			productReference = 9FD983531C49F9390041D953 /* TGFaceView.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FD9832A1C49F9390041D953 /* Build configuration list for PBXProject "TGFaceVIew" */;
+			buildConfigurationList = 9FD9832A1C49F9390041D953 /* Build configuration list for PBXProject "TGFaceView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -299,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD9834D1C49F9390041D953 /* TGFaceVIewTests.m in Sources */,
+				9FD9834D1C49F9390041D953 /* TGFaceViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD983581C49F9390041D953 /* TGFaceVIewUITests.m in Sources */,
+				9FD983581C49F9390041D953 /* TGFaceViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +418,7 @@
 				INFOPLIST_FILE = TGFaceVIew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIew;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -428,7 +431,7 @@
 				INFOPLIST_FILE = TGFaceVIew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIew;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -440,8 +443,8 @@
 				INFOPLIST_FILE = TGFaceVIewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGFaceVIew.app/TGFaceVIew";
+				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGFaceView.temp_caseinsensitive_rename.app/TGFaceView.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -452,8 +455,8 @@
 				INFOPLIST_FILE = TGFaceVIewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGFaceVIew.app/TGFaceVIew";
+				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGFaceView.temp_caseinsensitive_rename.app/TGFaceView.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -463,7 +466,7 @@
 				INFOPLIST_FILE = TGFaceVIewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TEST_TARGET_NAME = TGFaceVIew;
 				USES_XCTRUNNER = YES;
 			};
@@ -475,7 +478,7 @@
 				INFOPLIST_FILE = TGFaceVIewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TEST_TARGET_NAME = TGFaceVIew;
 				USES_XCTRUNNER = YES;
 			};
@@ -484,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FD9832A1C49F9390041D953 /* Build configuration list for PBXProject "TGFaceVIew" */ = {
+		9FD9832A1C49F9390041D953 /* Build configuration list for PBXProject "TGFaceView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FD9835A1C49F9390041D953 /* Debug */,
