@@ -18,8 +18,16 @@
 #define kRowFacesCount ((int)(SCREEN_WIDTH / kFaceItemWidth))
 #define kPageFacesCount (kRowFacesCount * kMaxColCount)
 
+@protocol DXFaceViewDelegate <NSObject>
+
+@required
+- (void)didSelectedFaceView:(NSString*)str isDelete:(BOOL)isDelete;
+
+@end
+
 @interface TGFaceView : UIView
 
+@property(nonatomic) id<DXFaceViewDelegate> delegate;
 //所有的表情集合
 @property (nonatomic, strong, readonly) NSArray *faces;
 //一共有多少页
