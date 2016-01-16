@@ -19,6 +19,7 @@
 		9FD983761C4A31C70041D953 /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983751C4A31C70041D953 /* Emoji.m */; };
 		9FD9837B1C4A321F0041D953 /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9837A1C4A321F0041D953 /* EmojiEmoticons.m */; };
 		9FD9837D1C4A35410041D953 /* faces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9837C1C4A35410041D953 /* faces.bundle */; };
+		9FD9837F1C4A471E0041D953 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9837E1C4A471E0041D953 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		9FD983791C4A321F0041D953 /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmojiEmoticons.h; path = TGFaceView/TGFaceView/EmojiEmoticons.h; sourceTree = SOURCE_ROOT; };
 		9FD9837A1C4A321F0041D953 /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmojiEmoticons.m; path = TGFaceView/TGFaceView/EmojiEmoticons.m; sourceTree = SOURCE_ROOT; };
 		9FD9837C1C4A35410041D953 /* faces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = faces.bundle; path = TGFaceView/TGFaceView/faces.bundle; sourceTree = SOURCE_ROOT; };
+		9FD9837E1C4A471E0041D953 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				9FD983381C49F9390041D953 /* ViewController.h */,
 				9FD983391C49F9390041D953 /* ViewController.m */,
 				9FD9833E1C49F9390041D953 /* Assets.xcassets */,
+				9FD9837E1C4A471E0041D953 /* LaunchScreen.xib */,
 				9FD983431C49F9390041D953 /* Info.plist */,
 				9FD983321C49F9390041D953 /* Supporting Files */,
 			);
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD9837D1C4A35410041D953 /* faces.bundle in Resources */,
+				9FD9837F1C4A471E0041D953 /* LaunchScreen.xib in Resources */,
 				9FD9833F1C49F9390041D953 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
