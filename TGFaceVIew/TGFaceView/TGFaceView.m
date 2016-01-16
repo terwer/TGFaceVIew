@@ -7,15 +7,34 @@
 //
 
 #import "TGFaceView.h"
+#import "Emoji.h"
+
+@interface TGFaceView (){
+    NSArray* _faces;
+}
+
+@property (nonatomic, assign) NSInteger realPageFacesCount;//这个记录一页共有几个，因为要预留一个位置做删除
+
+@end
 
 @implementation TGFaceView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+#pragma mark - getter
+
+- (NSArray*)faces{
+    if (!_faces) {
+        _faces  = [Emoji allEmoji];
+    }
+    return _faces;
 }
-*/
+
+-(NSInteger)realPageFacesCount{
+    return kPageFacesCount-1;
+}
+
+- (NSInteger)pageCount{
+    return self.faces.count / self.realPageFacesCount + 1;
+}
+
 
 @end
