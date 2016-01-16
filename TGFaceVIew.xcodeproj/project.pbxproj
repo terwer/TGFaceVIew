@@ -17,8 +17,8 @@
 		9FD9836E1C4A0C490041D953 /* TGFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9836D1C4A0C490041D953 /* TGFaceView.m */; };
 		9FD983711C4A0C6F0041D953 /* TGFaceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983701C4A0C6F0041D953 /* TGFaceUtil.m */; };
 		9FD983761C4A31C70041D953 /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD983751C4A31C70041D953 /* Emoji.m */; };
-		9FD983781C4A31E50041D953 /* faces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FD983771C4A31E50041D953 /* faces.bundle */; };
 		9FD9837B1C4A321F0041D953 /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9837A1C4A321F0041D953 /* EmojiEmoticons.m */; };
+		9FD9837D1C4A35410041D953 /* faces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FD9837C1C4A35410041D953 /* faces.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +61,9 @@
 		9FD983701C4A0C6F0041D953 /* TGFaceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGFaceUtil.m; path = TGFaceView/TGFaceUtil.m; sourceTree = "<group>"; };
 		9FD983741C4A31C70041D953 /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Emoji.h; path = TGFaceView/TGFaceView/Emoji.h; sourceTree = SOURCE_ROOT; };
 		9FD983751C4A31C70041D953 /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Emoji.m; path = TGFaceView/TGFaceView/Emoji.m; sourceTree = SOURCE_ROOT; };
-		9FD983771C4A31E50041D953 /* faces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = faces.bundle; sourceTree = "<group>"; };
 		9FD983791C4A321F0041D953 /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmojiEmoticons.h; path = TGFaceView/TGFaceView/EmojiEmoticons.h; sourceTree = SOURCE_ROOT; };
 		9FD9837A1C4A321F0041D953 /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmojiEmoticons.m; path = TGFaceView/TGFaceView/EmojiEmoticons.m; sourceTree = SOURCE_ROOT; };
+		9FD9837C1C4A35410041D953 /* faces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = faces.bundle; path = TGFaceView/TGFaceView/faces.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 		9FD983651C4A04B40041D953 /* TGFaceView */ = {
 			isa = PBXGroup;
 			children = (
-				9FD983771C4A31E50041D953 /* faces.bundle */,
+				9FD9837C1C4A35410041D953 /* faces.bundle */,
 				9FD983691C4A05800041D953 /* TGFaceScrollView.h */,
 				9FD9836A1C4A05800041D953 /* TGFaceScrollView.m */,
 				9FD9836C1C4A0C490041D953 /* TGFaceView.h */,
@@ -277,7 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD983781C4A31E50041D953 /* faces.bundle in Resources */,
+				9FD9837D1C4A35410041D953 /* faces.bundle in Resources */,
 				9FD9833F1C49F9390041D953 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = TGFaceVIew/Info.plist;
+				INFOPLIST_FILE = TGFaceView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceView;
 				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -444,9 +444,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = TGFaceVIew/Info.plist;
+				INFOPLIST_FILE = TGFaceView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIew;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceView;
 				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -456,9 +456,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TGFaceVIewTests/Info.plist;
+				INFOPLIST_FILE = TGFaceViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceViewTests;
 				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGFaceView.temp_caseinsensitive_rename.app/TGFaceView.temp_caseinsensitive_rename";
 			};
@@ -468,9 +468,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TGFaceVIewTests/Info.plist;
+				INFOPLIST_FILE = TGFaceViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceViewTests;
 				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGFaceView.temp_caseinsensitive_rename.app/TGFaceView.temp_caseinsensitive_rename";
 			};
@@ -479,11 +479,11 @@
 		9FD983631C49F9390041D953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TGFaceVIewUITests/Info.plist;
+				INFOPLIST_FILE = TGFaceViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceViewUITests;
 				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
-				TEST_TARGET_NAME = TGFaceVIew;
+				TEST_TARGET_NAME = TGFaceView;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -491,11 +491,11 @@
 		9FD983641C49F9390041D953 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TGFaceVIewUITests/Info.plist;
+				INFOPLIST_FILE = TGFaceViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceVIewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.TGFaceViewUITests;
 				PRODUCT_NAME = TGFaceView.temp_caseinsensitive_rename;
-				TEST_TARGET_NAME = TGFaceVIew;
+				TEST_TARGET_NAME = TGFaceView;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
