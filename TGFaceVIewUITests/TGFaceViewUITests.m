@@ -1,6 +1,6 @@
 //
-//  TGFaceVIewUITests.m
-//  TGFaceVIewUITests
+//  TGFaceViewUITests.m
+//  TGFaceViewUITests
 //
 //  Created by yifa007 on 16/1/16.
 //  Copyright © 2016年 Terwer Green. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TGFaceVIewUITests : XCTestCase
+@interface TGFaceViewUITests : XCTestCase
 
 @end
 
-@implementation TGFaceVIewUITests
+@implementation TGFaceViewUITests
 
 - (void)setUp {
     [super setUp];
