@@ -2,7 +2,7 @@
 //  TGFaceViewUITests.m
 //  TGFaceViewUITests
 //
-//  Created by yifa007 on 16/1/16.
+//  Created by Terwer Green on 16/1/16.
 //  Copyright © 2016年 Terwer Green. All rights reserved.
 //
 
